@@ -42,6 +42,15 @@ The production output is generated in `dist/` and can be deployed as a static we
 
 Website images used by the frontend are stored locally in `public/images` so the repository is self-contained. Gallery videos remain externally hosted and are referenced by their existing URLs.
 
+## Website screenshots
+
+Screenshots of the local website preview are stored in `docs/screenshots/`:
+
+- [Homepage](docs/screenshots/home.png)
+- [Products](docs/screenshots/products.png)
+- [Gallery](docs/screenshots/gallery.png)
+- [Contact](docs/screenshots/contact.png)
+
 ## Deployment
 
 The production website is hosted on Hostinger at `srikumaranbluemetalsandbricks.in`. Build the project with `npm run build`, then deploy the contents of `dist/` with `index.html` at the document-root level.
